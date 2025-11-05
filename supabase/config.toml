@@ -1,1 +1,10 @@
 project_id = "vlxsvaocngwcbwlxuhjy"
+
+[functions.auth-signup]
+verify_jwt = false
+
+[functions.auth-login]
+verify_jwt = false
+
+[functions.auth-reset-password]
+verify_jwt = false
